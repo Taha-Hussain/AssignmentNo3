@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<EditText
+    android:id="@+id/Setting_editText_Email"
+    android:hint="Please Enter Your Email Address"
+    style="@style/MySettingLayout"/>
+    <EditText
+        android:id="@+id/Setting_editText_Cnic"
+        android:hint="Please Enter Your CNIC"
+        style="@style/MySettingLayout"
+        android:numeric="integer"/>
+
+    <EditText
+        android:id="@+id/Setting_editText_Province"
+        android:hint="Please Enter Your Province"
+        style="@style/MySettingLayout"/>
+
+    <Button
+        android:id="@+id/Setting_button_save"
+        android:text="Save Settings"
+        style="@style/MySettingLayout"
+        android:onClick="onClick_save"/>
+    <Button
+        android:id="@+id/Setting_button_view"
+        android:text="View Settings"
+        style="@style/MySettingLayout"
+        android:onClick="onClick_View"/>
+</LinearLayout>
